@@ -26,7 +26,7 @@ function dateSample(sampleActivity) {
     return false;
   }
   sampleActivity = Number(sampleActivity);
-  console.log(sampleActivity<1);
+
   if (sampleActivity < 1) {
     return false;
   }
@@ -45,7 +45,7 @@ function dateSample(sampleActivity) {
   }
 
 }
-console.log(dateSample("-5"));
+
 
 module.exports = {
   dateSample
