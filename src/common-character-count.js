@@ -20,6 +20,7 @@ function getCommonCharacterCount(s1, s2) {
       if (arr2[k] === letter) {
         result += 1;
         arr2[k] = null;
+        break;
       }
     }
   })
