@@ -18,6 +18,21 @@ const { NotImplementedError } = require('../extensions/index.js');
 function renameFiles(/* names */) {
   throw new NotImplementedError('Not implemented');
   // remove line with error and write your code here
+  // return names.map(name => {
+  //   let count = 0;
+  //   for (let i = 0; i < names.length; i++) {
+  //     if (name === names[i]) {
+  //       if (count === 0) {
+  //         count++;
+  //         return name;
+  //       } else {
+  //         return name + `(${count})`
+  //       }
+
+
+  //     }
+  //   }
+  // })
 }
 
 module.exports = {
